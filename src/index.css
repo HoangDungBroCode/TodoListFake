@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  padding: 0px; 
+  margin: 0px; 
+}
+
+#root {
+  width: 25%; 
+  margin: auto; 
+  font-size: 1.5rem; 
+  /* border: 1px solid black;  */
+
+  margin-top: 2rem; 
+}
+
+h1 {
+  /* margin: 0 !important;  */
+  font-size: 5.5rem; 
+  text-align: center; 
+  color: #989898; 
+  margin-bottom: 20px; 
+}
+
+#root > h5 {
+  font-size: 1.7rem; 
+}
+
+#root > p {
+  font-size: 1.5rem; 
+}
+
+#root > h5, #root > p {
+  text-align: center; 
+  margin-bottom: 20px; 
+}
+
+.todo-cover {
+  display: block; 
+  width: 13%; 
+  margin: auto; 
+  margin-bottom: 20px; 
+}
+
+.list-table {
+  list-style: none;
+  padding-left: 0px; 
+}
+
+.list-table li {
+  position: relative; 
+  padding-left: 2.7rem; 
+  margin-bottom: 2rem; 
+}
+
+.item-icon {
+  position: absolute; 
+  display: inline-block; 
+  height: 1.7rem; 
+}
+
+.item-icon:hover {
+  cursor: pointer; 
+}
+
+.tick-icon {
+  bottom: 0px; 
+  left: 0; 
+}
+
+.delete-icon {
+  bottom: 0px; 
+  right: 0; 
+}
+
+.delete-icon:hover {
+  opacity: 0.7;
+}
+
+.item-icon img {
+  height: 100%; 
+}
+
+/* style for add input */
+
+.add-input {
+  display: block;
+  width: 90%; 
+  height: 2rem;
+  font-size: 1.2rem; 
+  margin: auto; 
+  border: 2px solid black; 
+  border-radius: 5px; 
+  padding: 0.5rem 1rem; 
+}
+
+.add-input:focus {
+  border: 2px solid black; 
+  outline: 1px solid red; 
+}
+
+/* utility classes */
+.linethrough {
+  text-decoration: line-through; 
+}
